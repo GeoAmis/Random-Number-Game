@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(18,194,233,1) 0%, rgba(196,113,237,1) 35%, rgba(246,79,89,1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 540px;
+    background-color: rgba(255,255,255,0.3);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#guess-container {
+    padding: 20px;
+}
+
+#paragraph, h2, #guessed-numbers {
+    color: rgb(255, 255, 255);
+}
+
+#guessed-numbers {
+    padding: 10px 0 0 0;
+}
+
+#guess-box {
+    border-radius: 4px 0 0 4px;
+    border: none;
+    padding: 8px;
+}
+
+#check {
+    border-radius: 0 4px 4px 0;
+    border: none;
+    padding: 8px;
+}
+
+#check:hover, #resetGame:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+#result, #guessed-numbers {
+    font-weight: bolder;
+}
+
+#resetGame {
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 4px 8px;
+    border: none;
+}
